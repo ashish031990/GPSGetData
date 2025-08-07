@@ -1,7 +1,3 @@
-# from application import app
-
-# if __name__ == '__main__':
-#     app.run(debug=True, host='0.0.0.0')
 from application import create_app
 from render import render_bp
 from fetch import fetch_bp
