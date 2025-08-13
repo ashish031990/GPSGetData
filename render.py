@@ -69,6 +69,9 @@ def handle_render():
     }
 
     url = f"{base_url}comGpsGate/api/v.1/applications/{app_id}/reports/{report_id}/renderings"
+    print(url)
+    print(payload)
+    print(headers)
 
     try:
         response = requests.post(url, json=payload, headers=headers)
