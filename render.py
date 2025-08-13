@@ -46,7 +46,7 @@ def handle_render():
             "visible": False
         },
         {
-            "parameterName": "TagID",
+            "parameterName": "Tag" if event_id else "TagID",
             "arrayValues": [tag_id]
         }
     ]
